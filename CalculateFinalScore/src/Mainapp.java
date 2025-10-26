@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Mainapp {
@@ -10,10 +11,14 @@ public class Mainapp {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         ArrayList<Student> std = new ArrayList<>();
-        int jumlah;
+        int jumlah = 0;
 
         System.out.println("==== CALCULATE FINAL SCORE ====");
-        System.out.print("Insert the number of Student(s): "); jumlah = input.nextInt();
+        try{
+            System.out.print("Insert the number of Student(s): "); jumlah = input.nextInt();
+        }catch (InputMismatchException e){
+            System.out.println("Invalid input");return;
+        }
 
         for(int i=0; i<jumlah; i++){
             addStudent(std, i);
