@@ -13,7 +13,7 @@ public class Mainapp {
         int jumlah;
 
         System.out.println("=== CALCULATE FINAL SCORE ===");
-        System.out.print("Insert the number of Students: "); jumlah = input.nextInt();
+        System.out.print("Insert the number of Student(s): "); jumlah = input.nextInt();
 
         for(int i=0; i<jumlah; i++){
             addStudent(std, i);
