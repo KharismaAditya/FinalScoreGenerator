@@ -12,7 +12,7 @@ public class Mainapp {
         ArrayList<Student> std = new ArrayList<>();
         int jumlah;
 
-        System.out.println("=== CALCULATE FINAL SCORE ===");
+        System.out.println("==== CALCULATE FINAL SCORE ====");
         System.out.print("Insert the number of Students: "); jumlah = input.nextInt();
 
         for(int i=0; i<jumlah; i++){
