@@ -24,8 +24,8 @@ public class Mainapp {
         for(int i=0; i<jumlah; i++){
             addStudent(std, i);
         }
-        School school = new School();
-        school.printResult(std);
+        School sch = new School();
+        sch.printResult(std);
     }
 
     /**
