@@ -2,6 +2,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Mainapp {
+    /**
+     * Method utama yang menjadi titik awal eksekusi program.
+     *
+     * @param args argumen baris perintah (tidak digunakan).
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         ArrayList<Student> std = new ArrayList<>();
@@ -17,6 +22,12 @@ public class Mainapp {
         school.printResult(std);
     }
 
+    /**
+     * Menambahkan data siswa baru ke dalam daftar.
+     *
+     * @param std daftar {@link Student}.
+     * @param i indeks siswa saat ini.
+     */
     public static void addStudent(ArrayList<Student> std, int i){
         Scanner input = new Scanner(System.in);
         String name;int grade; int attend;
