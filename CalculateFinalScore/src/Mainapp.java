@@ -17,7 +17,8 @@ public class Mainapp {
         try{
             System.out.print("Insert the number of Student(s): "); jumlah = input.nextInt();
         }catch (InputMismatchException e){
-            System.out.println("Invalid input");return;
+            System.out.println("Invalid input");
+            return;
         }
 
         for(int i=0; i<jumlah; i++){
