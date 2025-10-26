@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"<Unnamed>","c":"Mainapp","l":"addStudent(ArrayList<Student>, int)","u":"addStudent(java.util.ArrayList,int)"},{"p":"<Unnamed>","c":"Calculated","l":"calculateFinalScore(Student)"},{"p":"<Unnamed>","c":"Mainapp","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"<Unnamed>","c":"Mainapp","l":"Mainapp()","u":"%3Cinit%3E()"}];updateSearchResults();
