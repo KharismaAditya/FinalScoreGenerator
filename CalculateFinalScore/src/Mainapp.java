@@ -13,7 +13,7 @@ public class Mainapp {
         ArrayList<Student> std = new ArrayList<>();
         int jumlah = 0;
 
-        System.out.println("==== CALCULATE FINAL SCORE ====");
+        System.out.println("=== CALCULATE FINAL SCORE ===");
         try{
             System.out.print("Insert the number of Student(s): "); jumlah = input.nextInt();
         }catch (InputMismatchException e){
