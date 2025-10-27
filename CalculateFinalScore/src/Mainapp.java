@@ -22,6 +22,8 @@ public class Mainapp {
 
     }
 
+
+
     public static void insertStudentData(ArrayList<Student> std, int jumlah){
         Scanner input = new Scanner(System.in);
         System.out.print("Insert the number of Student(s) (0 to exit): "); jumlah = input.nextInt();
