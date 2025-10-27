@@ -8,19 +8,30 @@ public class Mainapp {
      *
      * @param args argumen baris perintah (tidak digunakan).
      */
+    //test
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
         ArrayList<Student> std = new ArrayList<>();
         int jumlah = 0;
 
         System.out.println("=== CALCULATE FINAL SCORE ===");
         try{
-            System.out.print("Insert the number of Student(s): "); jumlah = input.nextInt();
+            insertStudentData(std, jumlah);
         }catch (InputMismatchException e){
             System.out.println("Invalid input");
-            return;
+            insertStudentData(std, jumlah);
         }
 
+    }
+
+
+
+    public static void insertStudentData(ArrayList<Student> std, int jumlah){
+        Scanner input = new Scanner(System.in);
+        System.out.print("Insert the number of Student(s) (0 to exit): "); jumlah = input.nextInt();
+        if(jumlah == 0){
+            System.out.println(".. Exiting Program");
+            return;
+        }
         for(int i=0; i<jumlah; i++){
             addStudent(std, i);
         }
