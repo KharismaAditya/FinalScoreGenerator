@@ -8,6 +8,7 @@ public class Mainapp {
      *
      * @param args argumen baris perintah (tidak digunakan).
      */
+    //test
     public static void main(String[] args) {
         ArrayList<Student> std = new ArrayList<>();
         int jumlah = 0;
